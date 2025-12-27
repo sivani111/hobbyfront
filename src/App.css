@@ -1,0 +1,47 @@
+.hobby-container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+li button {
+  background: #dc3545;
+}
+li button:hover {
+  background: #c82333;
+}
+button:hover {
+  background: #0056b3;
+}
